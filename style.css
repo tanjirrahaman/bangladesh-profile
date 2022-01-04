@@ -27,3 +27,35 @@ body{
     cursor: pointer;
 
 }
+.second-section{
+   text-align: center;
+   margin-top: 50px; 
+}
+.dhaka{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+}
+.div-img img {
+    width: 100%;
+  }
+  .all-divisions{
+      display: flex;
+      justify-content: space-around;
+      padding: 50px;
+  }
+  .buttom-section {
+    padding: 15px;
+  }
+  .detais{
+      background-color: red;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      transition: 8s;
+  }
+  .detais:hover {
+    background-color: blue;
+    color: white;
+  }
